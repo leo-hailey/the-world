@@ -1,0 +1,54 @@
+/* Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #333;
+    color: #FAF9F6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+a{
+    color: #333;
+}
+.navbar {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    margin: 0;
+    
+    
+}
+.navbar li{
+    display: inline; 
+    width: 100%;
+    height: 60px;
+    padding: 0px 63px;
+    border: 5px solid beige;
+    background-color: beige; 
+    
+}
+.title {
+    background-image: url(/images/earth-horizon.jpg);
+    color: #FAF9F6;
+    height: 700px;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    font-size: 150px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ovotw {
+    padding-top: 20px;
+    text-align: center;
+}
+.ovotw p{
+    font-size: 17px;
+}
