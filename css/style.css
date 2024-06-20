@@ -17,6 +17,12 @@
     font-family: sunflower ;
     src: url(../css/Sunflower/Sunflower-Light.ttf);
 }
+figcaption{
+    position: relative;
+    display: block;
+    left: 70px;
+    font-size: small;
+}
 body{
     background-color: #333;
     color: #FAF9F6;
@@ -34,6 +40,11 @@ a{
     width: 100%;
     margin: 0;  
 }
+#navbar ul li:hover,
+#navbar ul li.current{
+    color:rgb(17, 0, 255);
+    background-color:rgb(233, 207, 202);
+}
 
 #navbar li{
     position: sticky;
@@ -41,8 +52,8 @@ a{
     display: inline; 
     width: 100%;
     height: 60px;
-    padding: 0px 63px;
-    border: 5px solid beige;
+    padding: 3px 63px;
+    border: 1px solid beige;
     background-color: beige; 
     
 }
@@ -106,7 +117,7 @@ a{
     text-align: center;
 }
 
-/* Title */
+/* The Ocean*/
 
 .ocean-title {
     background-image: url(/images/the-ocean.jpg);
@@ -124,4 +135,115 @@ a{
     max-width: none;
 }
 
+.ocean h2 {
+    font-size: 40px;
+}
+.ocean {
+    padding-top: 20px;
+    text-align: center;
+}
+.ocean p{
+    position:relative;
+    left: 50px;
+    font-size: 20px;
+    max-width: 90%;
+}
+.ocean-pics h2{
+    text-align: center;
+    font-size: 40px;
+}
+.ocean-pics img{
+    position: relative;
+    left: 65px;
+    right: 40px;
+    width: 465px;
+    height: 312px;
+    border: 3px solid black ;
+}
+/* The Land */
+.land-title {
+    background-image: url(/images/land-heading.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: #FAF9F6;
+    height: 800px;
+    width: 100%;
+    padding: 300px 0px;
+    text-align: center;
+    font-size: 185px;
+    font-family: sunflower, Arial, Helvetica, sans-serif;
+    min-width: 900px;
+    max-width: none;
+}
 
+.land {
+    padding-top: 20px;
+    text-align: center;
+}
+.land h2{
+    font-size: 40px;
+}
+.land p{
+    position:relative;
+    left: 50px;
+    font-size: 20px;
+    max-width: 90%;
+}
+
+.land-pics h2{
+    text-align: center;
+    font-size: 40px;
+}
+.land-pics img{
+    position: relative;
+    left: 65px;
+    right: 40px;
+    width: 465px;
+    height: 312px;
+    border: 3px solid black ;
+}
+/* Recent Discoveries */
+.ocean-species,
+.core-slow{
+    display:inline;
+    position:relative;
+    left: 40px;
+    float: left;
+    margin-top: 20px;
+    width:600px;
+    padding:20px;
+    border: 5px dashed #FAF9F6;
+}
+.ocean-species img,
+.core-slow img {
+    width: 550px;
+    height: 309px; 
+}
+.core-slow img{
+    margin-top: 20px;
+}
+.discoveries-title {
+    background-image: url(/images/discoveries-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: #FAF9F6;
+    height: 800px;
+    width: 100%;
+    padding: 300px 0px;
+    text-align: center;
+    font-size: 185px;
+    font-family: sunflower, Arial, Helvetica, sans-serif;
+    min-width: 900px;
+    max-width: none;
+}
+
+
+#article {
+    color: #ee4848;
+    font-weight: bold;
+}
+#article:hover{
+    color: rgb(32, 119, 231)
+}
