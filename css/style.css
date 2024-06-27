@@ -52,6 +52,11 @@ a{
     
 }
 
+.highlight {
+    color: rgb(72, 146, 241);
+    font-weight: bold;
+}
+
 /* the world */
 .title {
     background-image: url(/images/horizon-earth-2.jpg);
@@ -68,15 +73,19 @@ a{
     min-width: 900px;
     max-width: none;
 }
-.ovotw {
+
+.welcome {
+    padding-bottom: 35px;
+}
+.welcome, .ovotw {
     padding-top: 20px;
     text-align: center;
 }
-.ovotw h2{
+.welcome h2, .ovotw h2{
     font-size: 40px;
 
 }
-.ovotw p{
+.welcome p, .ovotw p{
     position:relative;
     left: 50px;
     font-size: 20px;
@@ -88,7 +97,7 @@ a{
     text-align: center;
     font-size: 40px;
 }
-.ovotw-pics img,   {
+.ovotw-pics img {
     position: relative;
     left: 65px;
     right: 40px;
@@ -252,5 +261,5 @@ a{
     font-weight: bold;
 }
 #article:hover{
-    color: rgb(32, 119, 231)
+    color: rgb(32, 119, 231);
 }
