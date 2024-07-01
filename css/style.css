@@ -21,12 +21,16 @@
     src: url(../css/Sunflower/Sunflower-Light.ttf);
 }
 
+ul{
+    list-style: none;
+}
 
 body{
     background-color: #333;
     color: #FAF9F6;
     font-family:sunflower, Arial, Helvetica, sans-serif;
 }
+
 
 a{
     color: #333;
@@ -49,7 +53,7 @@ a{
     text-align: center;
     width: 100%;
     margin: 0; 
-    
+    z-index: 20;
 }
 
 
@@ -67,7 +71,7 @@ a{
     padding: 10px 63px;
     border: 1px solid beige;
     background-color: beige; 
-    
+
 }
 
 /* the world */
@@ -92,27 +96,26 @@ a{
     padding-bottom: 35px;
 }
 
-.welcome, .ovotw {
-    padding-top: 20px;
+.welcome, 
+.ovotw {
+    padding-top: 50px;
     text-align: center;
 }
 
-.welcome h2, .ovotw h2{
+.welcome h2, 
+.ovotw h2,
+.ovotw-pics h2{
     font-size: 40px;
-
+    text-align: center;
 }
 
-.welcome p, .ovotw p{
+.welcome p, 
+.ovotw p{
     position:relative;
     left: 50px;
     font-size: 20px;
     max-width: 90%;
     
-}
-
-.ovotw-pics h2 {
-    text-align: center;
-    font-size: 40px;
 }
 
 .ovotw-pics img {
@@ -134,6 +137,7 @@ a{
     height: 800px;
     width: 100%;
     padding: 300px 0px;
+    margin-bottom: 9px;
     text-align: center;
     font-size: 185px;
     font-family: sunflower, Arial, Helvetica, sans-serif;
@@ -141,8 +145,10 @@ a{
     max-width: none;
 }
 
-.ocean h2 {
+.ocean h2,
+.ocean-pics h2 {
     font-size: 40px;
+    text-align: center;
 }
 
 .ocean {
@@ -155,11 +161,6 @@ a{
     left: 50px;
     font-size: 20px;
     max-width: 90%;
-}
-
-.ocean-pics h2{
-    text-align: center;
-    font-size: 40px;
 }
 
 .ocean-pics img{
@@ -182,6 +183,7 @@ a{
     height: 800px;
     width: 100%;
     padding: 300px 0px;
+    margin-bottom: 9px;
     text-align: center;
     font-size: 185px;
     font-family: sunflower, Arial, Helvetica, sans-serif;
@@ -228,7 +230,7 @@ a{
     position:relative;
     left: 40px;
     float: left;
-    margin-top: 20px;
+    margin-top: 75px;
     width:600px;
     padding:20px;
     border: 5px dashed #FAF9F6;
@@ -280,6 +282,25 @@ a{
 #article:hover{
     color: rgb(32, 119, 231);
 }
+
+/* Resources */
+
+.source {
+    display: block;
+    position: relative;
+    top: 100px;
+    border: black 3px solid;
+    padding: 10px;
+    margin: 20px;
+}
+
+.source img{
+    height: 100px;
+}
+.source a {
+    color: #FAF9F6;
+}
+
 
 /* Footer */
 
