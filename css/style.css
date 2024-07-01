@@ -13,7 +13,7 @@
 .container {
     margin: auto;
     max-width: 1100px;
-    overflow: auto;
+    overflow: visible;
     padding: 0 20px;
 }
 @font-face {
@@ -21,12 +21,6 @@
     src: url(../css/Sunflower/Sunflower-Light.ttf);
 }
 
-figcaption{
-    position: relative;
-    display: block;
-    left: 70px;
-    font-size: small;
-}
 
 body{
     background-color: #333;
@@ -38,34 +32,42 @@ a{
     color: #333;
 }
 
+.highlight {
+    color: rgb(72, 146, 241);
+    font-weight: bold;
+}
+
 #cite {
     font-size: x-small;
 }
 
 
 /* Navigation */
-#navbar { 
-    text-align: center;
-    height: 30px;
-    width: 100%;
-    margin: 0;  
-}
-
-#navbar li{
+#navbar {
     position: sticky;
-    top: 20px;
-    display: inline; 
+    top: 30px;  
+    text-align: center;
     width: 100%;
-    height: 60px;
-    padding: 3px 63px;
-    border: 1px solid beige;
-    background-color: beige; 
+    margin: 0; 
     
 }
 
-.highlight {
-    color: rgb(72, 146, 241);
-    font-weight: bold;
+
+
+#navbar ul li:hover,
+#navbar ul li.current{
+    background: rgb(206, 201, 179);
+    color: rgb(53, 126, 35);
+}
+
+
+#navbar li{
+    display: inline; 
+    width: 100%;
+    padding: 10px 63px;
+    border: 1px solid beige;
+    background-color: beige; 
+    
 }
 
 /* the world */
@@ -78,6 +80,7 @@ a{
     height: 800px;
     width: 100%;
     padding: 300px 0px;
+    margin-bottom: 9px;
     text-align: center;
     font-size: 185px;
     font-family: sunflower, Arial, Helvetica, sans-serif;
