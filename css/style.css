@@ -1,4 +1,5 @@
 /* Reset*/
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,9 @@
     text-decoration: none;
     
 }
+
 /* Utilities */
+
 .container {
     margin: auto;
     max-width: 1100px;
@@ -17,20 +20,28 @@
     font-family: sunflower ;
     src: url(../css/Sunflower/Sunflower-Light.ttf);
 }
+
 figcaption{
     position: relative;
     display: block;
     left: 70px;
     font-size: small;
 }
+
 body{
     background-color: #333;
     color: #FAF9F6;
     font-family:sunflower, Arial, Helvetica, sans-serif;
 }
+
 a{
     color: #333;
 }
+
+#cite {
+    font-size: x-small;
+}
+
 
 /* Navigation */
 #navbar { 
@@ -77,14 +88,17 @@ a{
 .welcome {
     padding-bottom: 35px;
 }
+
 .welcome, .ovotw {
     padding-top: 20px;
     text-align: center;
 }
+
 .welcome h2, .ovotw h2{
     font-size: 40px;
 
 }
+
 .welcome p, .ovotw p{
     position:relative;
     left: 50px;
@@ -97,26 +111,13 @@ a{
     text-align: center;
     font-size: 40px;
 }
+
 .ovotw-pics img {
     position: relative;
     left: 65px;
     right: 40px;
     width: 465px;
     border: 3px solid black ;
-}
-
-#cite {
-    font-size: x-small;
-}
-
-.footer{
-    background-color: black;
-    width: 100%;
-}
-.footer ul li {
-    display:inline-block;
-    padding: 20px 200px;
-    text-align: center;
 }
 
 /* The Ocean*/
@@ -140,20 +141,24 @@ a{
 .ocean h2 {
     font-size: 40px;
 }
+
 .ocean {
     padding-top: 20px;
     text-align: center;
 }
+
 .ocean p{
     position:relative;
     left: 50px;
     font-size: 20px;
     max-width: 90%;
 }
+
 .ocean-pics h2{
     text-align: center;
     font-size: 40px;
 }
+
 .ocean-pics img{
     position: relative;
     left: 65px;
@@ -162,7 +167,9 @@ a{
     height: 312px;
     border: 3px solid black ;
 }
+
 /* The Land */
+
 .land-title {
     background-image: url(../images/land-heading.jpg);
     background-repeat: no-repeat;
@@ -183,9 +190,11 @@ a{
     padding-top: 20px;
     text-align: center;
 }
+
 .land h2{
     font-size: 40px;
 }
+
 .land p{
     position:relative;
     left: 50px;
@@ -197,6 +206,7 @@ a{
     text-align: center;
     font-size: 40px;
 }
+
 .land-pics img{
     position: relative;
     left: 65px;
@@ -205,7 +215,9 @@ a{
     height: 312px;
     border: 3px solid black ;
 }
+
 /* Recent Discoveries */
+
 .ocean-species,
 .core-slow,
 .river{
@@ -256,10 +268,25 @@ a{
     overflow: auto;
     padding: 0 20px;
 }
+
 #article {
     color: #ee4848;
     font-weight: bold;
 }
+
 #article:hover{
     color: rgb(32, 119, 231);
+}
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    width: 100%;
+}
+
+.footer ul li {
+    display:inline-block;
+    padding: 20px 200px;
+    text-align: center;
 }
