@@ -16,6 +16,7 @@
     overflow: visible;
     padding: 0 20px;
 }
+
 @font-face {
     font-family: sunflower ;
     src: url(../css/Sunflower/Sunflower-Light.ttf);
@@ -31,7 +32,6 @@ body{
     font-family:sunflower, Arial, Helvetica, sans-serif;
 }
 
-
 a{
     color: #333;
 }
@@ -39,10 +39,6 @@ a{
 .highlight {
     color: rgb(72, 146, 241);
     font-weight: bold;
-}
-
-#cite {
-    font-size: x-small;
 }
 
 
@@ -56,14 +52,11 @@ a{
     z-index: 20;
 }
 
-
-
 #navbar ul li:hover,
 #navbar ul li.current{
     background: rgb(206, 201, 179);
     color: rgb(53, 126, 35);
 }
-
 
 #navbar li{
     display: inline; 
@@ -73,6 +66,7 @@ a{
     background-color: beige; 
 
 }
+
 
 /* the world */
 .title {
@@ -126,6 +120,52 @@ a{
     border: 3px solid black ;
 }
 
+
+/* The Land */
+.land-title {
+    background-image: url(../images/land-heading.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: #FAF9F6;
+    height: 800px;
+    width: 100%;
+    padding: 300px 0px;
+    margin-bottom: 9px;
+    text-align: center;
+    font-size: 185px;
+    font-family: sunflower, Arial, Helvetica, sans-serif;
+    min-width: 900px;
+    max-width: none;
+}
+
+.land {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.land h2,
+.land-pics h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.land p{
+    position:relative;
+    left: 50px;
+    font-size: 20px;
+    max-width: 90%;
+}
+
+.land-pics img{
+    position: relative;
+    left: 65px;
+    right: 40px;
+    width: 465px;
+    height: 312px;
+    border: 3px solid black ;
+}
+
 /* The Ocean*/
 
 .ocean-title {
@@ -172,57 +212,8 @@ a{
     border: 3px solid black ;
 }
 
-/* The Land */
-
-.land-title {
-    background-image: url(../images/land-heading.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    color: #FAF9F6;
-    height: 800px;
-    width: 100%;
-    padding: 300px 0px;
-    margin-bottom: 9px;
-    text-align: center;
-    font-size: 185px;
-    font-family: sunflower, Arial, Helvetica, sans-serif;
-    min-width: 900px;
-    max-width: none;
-}
-
-.land {
-    padding-top: 20px;
-    text-align: center;
-}
-
-.land h2{
-    font-size: 40px;
-}
-
-.land p{
-    position:relative;
-    left: 50px;
-    font-size: 20px;
-    max-width: 90%;
-}
-
-.land-pics h2{
-    text-align: center;
-    font-size: 40px;
-}
-
-.land-pics img{
-    position: relative;
-    left: 65px;
-    right: 40px;
-    width: 465px;
-    height: 312px;
-    border: 3px solid black ;
-}
 
 /* Recent Discoveries */
-
 .ocean-species,
 .core-slow,
 .river{
@@ -284,6 +275,12 @@ a{
 }
 
 /* Resources */
+.re-header{
+    position: relative ;
+    text-align: center;
+    top: 75px;
+    font-size: 40px;
+}
 
 .source {
     display: block;
@@ -292,10 +289,15 @@ a{
     border: black 3px solid;
     padding: 10px;
     margin: 20px;
+    
+}
+
+.resrcs{
+    margin-bottom: 150px;
 }
 
 .source img{
-    height: 100px;
+    height: 130px;
 }
 .source a {
     color: #FAF9F6;
@@ -303,7 +305,6 @@ a{
 
 
 /* Footer */
-
 .footer{
     background-color: black;
     width: 100%;
